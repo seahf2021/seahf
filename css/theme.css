@@ -1916,6 +1916,17 @@ textarea {
     width: 100%;
 }
 
+.small-tr-menu-item {
+
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7px );
+    -webkit-backdrop-filter: blur( 7px );
+    border-radius: 1px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
 .slider-tr-bg-spaced {
     background: rgba( 255, 255, 255, 0.1 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
@@ -1935,6 +1946,10 @@ textarea {
     /*border-radius: 10px;*/
     /*border: 1px solid rgba( 255, 255, 255, 0.18 );*/
     /*padding: -30px -60px;*/
+
+    padding-top: 8px;
+    padding-bottom: 2px;
+
 
 }
 
@@ -4033,6 +4048,11 @@ footer.post-meta .post-categories {display: block;}
 
 /* 5 - Widgets / Shortcodes
 /* ========================================================================== */
+.ltr-version {
+
+    direction: ltr;
+
+}
 
 .sidebar .widget {
     direction: ltr;

@@ -356,7 +356,9 @@ body.boxed {
     background-color: rgba(0, 0, 0, 0.30);
 }
 
-.block-title {}
+.block-title {
+    color: #0D1D31;
+}
 .block-text {}
 .block-readmore {
     margin-top: 40px;
@@ -378,6 +380,14 @@ h4 .glyphicon, h5 .glyphicon, h6 .glyphicon {
 
 /* Section title
  * -------------------------------------------------------------------------- */
+
+.empty-padding-top {
+    padding-top: 120px;
+}
+
+.small-empty-left-padding {
+    padding-left: 50px;
+}
 
 .section-title {
     position: relative;
@@ -4048,6 +4058,12 @@ footer.post-meta .post-categories {display: block;}
 
 /* 5 - Widgets / Shortcodes
 /* ========================================================================== */
+
+.logo-padding {
+    padding-top: 2px;
+    padding-left: 10px;
+}
+
 .ltr-version {
 
     direction: ltr;
